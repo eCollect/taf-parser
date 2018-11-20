@@ -1,0 +1,7 @@
+{Bl BlgNr=89384 GFNr=970398 Date=01.11.2017 Orig=0 MType=2
+        {Sys AccId=1022 Type=0 CAcc=div  ValNt=342.6  Text="some text"}
+        {Bk AccId=2100 Type=1 CAcc=div  ValNt=207.5  Text="PC-1 some text"}
+        {Bk AccId=3008 Type=1 CAcc=div  ValNt=20  Text="RF-1 some text"}
+        {Bk AccId=3006 Type=1 CAcc=div TaxId=UOKJ2 TIdx=5 ValTx=5.33 ValNt=66.67  Text="PF-1 some text"}
+        {Bk AccId=2200 Type=1 CAcc=div BType=2 ValTx=66.67 ValNt=5.33  Text="PF-1 some text"}
+}

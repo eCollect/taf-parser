@@ -1,0 +1,20 @@
+{
+  "name": "taf-parser",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc mocha ./test",
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^5.7.0",
+    "eslint-config-ecollect-base": "0.0.2",
+    "eslint-plugin-import": "^2.14.0",
+    "mocha": "^5.2.0",
+    "nyc": "^13.1.0"
+  }
+}

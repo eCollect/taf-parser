@@ -1,0 +1,5 @@
+{Sys Chars=12390239
+    {Bk AccId=1022 }
+    {Bk AccId=2100 Type=1 CAcc=div  ValNt=20.7  Text='PC-1 | This is another text'}
+    {Bk AccId=2100 Type=1 CAcc=div  ValNt=20.7  Text="PC-1 | This is another text"}
+}
