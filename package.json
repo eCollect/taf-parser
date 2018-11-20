@@ -6,9 +6,18 @@
   "scripts": {
     "test": "nyc mocha ./test",
     "coverage": "nyc report --reporter=text-lcov | coveralls"
-  },
-  "author": "",
-  "license": "ISC",
+	},
+	"keywords": [
+		"sage",
+		"sage50",
+		"taf",
+		"parser",
+		"lexer",
+		"Tagged Format",
+		"stream"
+	],
+  "author": "eCollect AG.",
+  "license": "MIT",
   "devDependencies": {
     "chai": "^4.2.0",
     "coveralls": "^3.0.2",
