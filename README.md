@@ -1,10 +1,10 @@
+[![Build Status](https://travis-ci.org/eCollect/taf-parser.svg?branch=master)](https://travis-ci.org/eCollect/taf-parser) [![Coverage Status](https://coveralls.io/repos/github/eCollect/taf-parser/badge.svg?branch=master)](https://coveralls.io/github/eCollect/taf-parser?branch=master) [![Known Vulnerabilities](https://snyk.io/test/github/eCollect/taf-parser/badge.svg)](https://snyk.io/test/github/eCollect/taf-parser) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](/eCollect/pateka/blob/master/LICENSE)
+
 # TAF parser
 
 'Tagged Format' (TAF) files are files that can be used to export and import data sets used by the accounting system of Sage 50.
 
 The parser goes through a string content or a stream of data and detects one error at a time in the structure.
-
-[![Build Status](https://travis-ci.org/eCollect/taf-parser.svg?branch=master)](https://travis-ci.org/eCollect/taf-parser) [![Coverage Status](https://coveralls.io/repos/github/eCollect/taf-parser/badge.svg?branch=master)](https://coveralls.io/github/eCollect/taf-parser?branch=master) [![Known Vulnerabilities](https://snyk.io/test/github/eCollect/taf-parser/badge.svg)](https://snyk.io/test/github/eCollect/taf-parser) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](/eCollect/pateka/blob/master/LICENSE)
 
 ## Installation
 
