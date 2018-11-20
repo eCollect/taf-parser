@@ -1,7 +1,7 @@
 {
   "name": "taf-parser",
   "version": "0.0.1",
-  "description": "",
+  "description": "TAF ( Tagged Format ) Sage 50 Format Parser.",
   "main": "index.js",
   "scripts": {
     "test": "nyc mocha ./test",
