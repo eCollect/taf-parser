@@ -4,6 +4,7 @@
 
 The parser goes through a string content or a stream of data and detects one error at a time in the structure.
 
+[![Build Status](https://travis-ci.org/eCollect/taf-parser.svg?branch=master)](https://travis-ci.org/eCollect/taf-parser) [![Coverage Status](https://coveralls.io/repos/github/eCollect/taf-parser/badge.svg?branch=master)](https://coveralls.io/github/eCollect/taf-parser?branch=master)
 
 ## Installation
 
@@ -22,7 +23,7 @@ In this case it will return an array of objects that represents the data in the 
 For larger data use the stream capabilities.
 
 * **Parse a stream of data**  
-When dealing with large content it is recomended to use the parser to create a stream that can be combined with other streams. The stream pushes correctly parsed block of data down to the next stream. In case of an error, an 'error' event is emited.
+When dealing with large content it is recomended to use the parser to create a stream that can be combined with other streams. The stream pushes correctly parsed block of data down to the next stream. In case of an error, an `error` event is emited.
 
 First, require the parser:
 ```javascript
@@ -81,7 +82,7 @@ const ParseStream = Parser.createStream();
 ```
 
 The newly created stream is a Transform stream, that expects data flowing to it and as a result pushes to the next stream javascript object representation of each successfully parsed block of data.  
-In the case of an error the stream will emit an 'error' event.
+In the case of an error the stream will emit an `error` event.
 
 **Streams example**
 ```javascript
