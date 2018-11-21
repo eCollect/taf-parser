@@ -1,11 +1,11 @@
 {
-  "name": "taf-parser",
-  "version": "0.0.1",
-  "description": "TAF ( Tagged Format ) Sage 50 Format Parser.",
-  "main": "index.js",
-  "scripts": {
-    "test": "nyc mocha ./test",
-    "coverage": "nyc report --reporter=text-lcov | coveralls"
+	"name": "taf-parser",
+	"version": "0.0.2",
+	"description": "TAF ( Tagged Format ) Sage 50 Format Parser.",
+	"main": "index.js",
+	"scripts": {
+		"test": "nyc mocha ./test",
+		"coverage": "nyc report --reporter=text-lcov | coveralls"
 	},
 	"keywords": [
 		"sage",
@@ -16,15 +16,24 @@
 		"Tagged Format",
 		"stream"
 	],
-  "author": "eCollect AG.",
-  "license": "MIT",
-  "devDependencies": {
-    "chai": "^4.2.0",
-    "coveralls": "^3.0.2",
-    "eslint": "^5.7.0",
-    "eslint-config-ecollect-base": "0.0.2",
-    "eslint-plugin-import": "^2.14.0",
-    "mocha": "^5.2.0",
-    "nyc": "^13.1.0"
-  }
+	"author": "eCollect AG.",
+	"contributors": [{
+		"name": "Vladislav Hristov",
+		"email": "vladislav.hristov@ecollect.net",
+		"url": "https://github.com/vladhristov"
+	}, {
+		"name": "Dimitar Nanov",
+		"email": "dimitar.nanov@ecollect.net",
+		"url": "https://nanov.io"
+	}],
+	"license": "MIT",
+	"devDependencies": {
+		"chai": "^4.2.0",
+		"coveralls": "^3.0.2",
+		"eslint": "^5.7.0",
+		"eslint-config-ecollect-base": "0.0.2",
+		"eslint-plugin-import": "^2.14.0",
+		"mocha": "^5.2.0",
+		"nyc": "^13.1.0"
+	}
 }
